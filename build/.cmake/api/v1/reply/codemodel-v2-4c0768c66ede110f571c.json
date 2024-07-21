@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Uebung11::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Uebung11-Debug-e463ce2ee1257eec4da2.json",
+					"jsonFile" : "target-Uebung11-Debug-3ddaf5dc969fcba05659.json",
 					"name" : "Uebung11",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/michalroziel/Documents/htwprog/Uebung11/cmake-build-debug",
+		"build" : "/Users/michalroziel/Documents/htwprog/Uebung11/build",
 		"source" : "/Users/michalroziel/Documents/htwprog/Uebung11"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 7
 	}
 }

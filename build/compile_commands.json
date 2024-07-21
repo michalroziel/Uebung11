@@ -1,14 +1,26 @@
 [
 {
   "directory": "/Users/michalroziel/Documents/htwprog/Uebung11/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/Uebung11.dir/main.c.o -c /Users/michalroziel/Documents/htwprog/Uebung11/main.c",
-  "file": "/Users/michalroziel/Documents/htwprog/Uebung11/main.c",
-  "output": "CMakeFiles/Uebung11.dir/main.c.o"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/Uebung11.dir/ex1/main.c.o -c /Users/michalroziel/Documents/htwprog/Uebung11/ex1/main.c",
+  "file": "/Users/michalroziel/Documents/htwprog/Uebung11/ex1/main.c",
+  "output": "CMakeFiles/Uebung11.dir/ex1/main.c.o"
 },
 {
   "directory": "/Users/michalroziel/Documents/htwprog/Uebung11/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/Uebung11.dir/system.c.o -c /Users/michalroziel/Documents/htwprog/Uebung11/system.c",
-  "file": "/Users/michalroziel/Documents/htwprog/Uebung11/system.c",
-  "output": "CMakeFiles/Uebung11.dir/system.c.o"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/Uebung11.dir/ex1/system.c.o -c /Users/michalroziel/Documents/htwprog/Uebung11/ex1/system.c",
+  "file": "/Users/michalroziel/Documents/htwprog/Uebung11/ex1/system.c",
+  "output": "CMakeFiles/Uebung11.dir/ex1/system.c.o"
+},
+{
+  "directory": "/Users/michalroziel/Documents/htwprog/Uebung11/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/Uebung11.dir/ex1/builder.c.o -c /Users/michalroziel/Documents/htwprog/Uebung11/ex1/builder.c",
+  "file": "/Users/michalroziel/Documents/htwprog/Uebung11/ex1/builder.c",
+  "output": "CMakeFiles/Uebung11.dir/ex1/builder.c.o"
+},
+{
+  "directory": "/Users/michalroziel/Documents/htwprog/Uebung11/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/Uebung11.dir/ex2/matrices.c.o -c /Users/michalroziel/Documents/htwprog/Uebung11/ex2/matrices.c",
+  "file": "/Users/michalroziel/Documents/htwprog/Uebung11/ex2/matrices.c",
+  "output": "CMakeFiles/Uebung11.dir/ex2/matrices.c.o"
 }
 ]
