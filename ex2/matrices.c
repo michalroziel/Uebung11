@@ -28,7 +28,7 @@ void printMatrix(int matrix[], int rows, int columns) {
 int findMaxInCol( int matrix[], int rows, int cols, int col) {
 
 
-ew
+
 
 }
 
