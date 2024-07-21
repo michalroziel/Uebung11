@@ -1,26 +1,3 @@
 # ninja log v6
-1	90	1721332386359086903	CMakeFiles/Uebung11.dir/main.c.o	d2b6331d826bea51
-1	91	1721332386359368354	CMakeFiles/Uebung11.dir/system.c.o	fcc3f5af43572bb8
-0	23	1721332417274645908	CMakeFiles/Uebung11.dir/system.c.o	fcc3f5af43572bb8
-0	23	1721332417274423289	CMakeFiles/Uebung11.dir/main.c.o	d2b6331d826bea51
-2	34	1721332506393075996	CMakeFiles/Uebung11.dir/system.c.o	fcc3f5af43572bb8
-1	34	1721332506392663173	CMakeFiles/Uebung11.dir/main.c.o	d2b6331d826bea51
-1	29	1721332530327356391	CMakeFiles/Uebung11.dir/main.c.o	d2b6331d826bea51
-1	30	1721332530327653425	CMakeFiles/Uebung11.dir/system.c.o	fcc3f5af43572bb8
-1	33	1721332690660367752	CMakeFiles/Uebung11.dir/main.c.o	d2b6331d826bea51
-1	33	1721332690660661287	CMakeFiles/Uebung11.dir/system.c.o	fcc3f5af43572bb8
-0	23	1721332730448831008	CMakeFiles/Uebung11.dir/main.c.o	d2b6331d826bea51
-0	24	1721332730449072418	CMakeFiles/Uebung11.dir/system.c.o	fcc3f5af43572bb8
-0	23	1721332768066301393	CMakeFiles/Uebung11.dir/system.c.o	fcc3f5af43572bb8
-0	23	1721332768065991109	CMakeFiles/Uebung11.dir/main.c.o	d2b6331d826bea51
-1	25	1721332814604767689	CMakeFiles/Uebung11.dir/system.c.o	fcc3f5af43572bb8
-1	25	1721332814604482696	CMakeFiles/Uebung11.dir/main.c.o	d2b6331d826bea51
-0	23	1721332860385132090	CMakeFiles/Uebung11.dir/main.c.o	d2b6331d826bea51
-0	22	1721332925306405858	CMakeFiles/Uebung11.dir/main.c.o	d2b6331d826bea51
-1	30	1721333328439161501	CMakeFiles/Uebung11.dir/main.c.o	d2b6331d826bea51
-1	29	1721333373167418072	CMakeFiles/Uebung11.dir/main.c.o	d2b6331d826bea51
-0	22	1721333403561376271	CMakeFiles/Uebung11.dir/main.c.o	d2b6331d826bea51
-1	22	1721333417304114211	CMakeFiles/Uebung11.dir/main.c.o	d2b6331d826bea51
-1	33	1721333482538926569	CMakeFiles/Uebung11.dir/main.c.o	d2b6331d826bea51
-2	33	1721333482539229570	CMakeFiles/Uebung11.dir/system.c.o	fcc3f5af43572bb8
 1	26	1721333557133538048	CMakeFiles/Uebung11.dir/main.c.o	d2b6331d826bea51
+2	33	1721333482539229570	CMakeFiles/Uebung11.dir/system.c.o	fcc3f5af43572bb8

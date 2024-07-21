@@ -61,6 +61,12 @@ build CMakeFiles/Uebung11.dir/system.c.o: C_COMPILER__Uebung11_unscanned_Debug /
   OBJECT_DIR = CMakeFiles/Uebung11.dir
   OBJECT_FILE_DIR = CMakeFiles/Uebung11.dir
 
+build CMakeFiles/Uebung11.dir/builder.c.o: C_COMPILER__Uebung11_unscanned_Debug /Users/michalroziel/Documents/htwprog/Uebung11/builder.c || cmake_object_order_depends_target_Uebung11
+  DEP_FILE = CMakeFiles/Uebung11.dir/builder.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Uebung11.dir
+  OBJECT_FILE_DIR = CMakeFiles/Uebung11.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Uebung11
@@ -69,7 +75,7 @@ build CMakeFiles/Uebung11.dir/system.c.o: C_COMPILER__Uebung11_unscanned_Debug /
 #############################################
 # Link the executable Uebung11
 
-build Uebung11: C_EXECUTABLE_LINKER__Uebung11_Debug CMakeFiles/Uebung11.dir/main.c.o CMakeFiles/Uebung11.dir/system.c.o
+build Uebung11: C_EXECUTABLE_LINKER__Uebung11_Debug CMakeFiles/Uebung11.dir/main.c.o CMakeFiles/Uebung11.dir/system.c.o CMakeFiles/Uebung11.dir/builder.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/Uebung11.dir
   POST_BUILD = :
