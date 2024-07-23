@@ -35,7 +35,8 @@ void printMatrix(int matrix[], const int rows, const int columns)
 int findMaxInCol(int matrix[], const int rows, const int cols, const int col)
 {
 
-  int max = -1;
+  // set a very small number as the max at the beginning
+  int max = -10000;
 
   for (int row = 0; row < rows; row++)
   {
@@ -51,6 +52,25 @@ int findMaxInCol(int matrix[], const int rows, const int cols, const int col)
   }
   printf("the maxinum element in the column %d is : %d\n", col, max);
   return max;
+}
+
+int findMinInRow(int* matrix, int rows, int cols, int row) {
+
+  // setting the min to a very big number at the beginning
+  int min = 10000;
+
+    for (int col = 0; col < cols; col++) {
+
+        int index = row * cols + col;
+
+        if (matrix[index] < min) {
+
+            min = matrix[index];
+        }
+    }
+
+    printf("the minimum element in the row %d is : %d", row, min);
+    return min;
 }
 
 void transposeMatrix(int *matrix, const int rows, const int cols)
@@ -97,8 +117,9 @@ int main(void)
 
   printf("\n\n\n");
 
-  // findMaxInCol(givenArray,5,3,0);
-  transposeMatrix(givenArray, rowsToPrint, columnsToPrint);
+   findMaxInCol(givenArray,5,3,0);
+  findMinInRow(givenArray,rowsToPrint,columnsToPrint,2);
+  //transposeMatrix(givenArray, rowsToPrint, columnsToPrint);
 
   return 0;
 }
