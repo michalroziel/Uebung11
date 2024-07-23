@@ -54,23 +54,58 @@ int findMaxInCol(int matrix[], const int rows, const int cols, const int col)
   return max;
 }
 
-int findMinInRow(int* matrix, int rows, int cols, int row) {
+int findMinInRow(int *matrix, int rows, int cols, int row)
+{
 
   // setting the min to a very big number at the beginning
   int min = 10000;
 
-    for (int col = 0; col < cols; col++) {
+  for (int col = 0; col < cols; col++)
+  {
 
-        int index = row * cols + col;
+    int index = row * cols + col;
 
-        if (matrix[index] < min) {
+    if (matrix[index] < min)
+    {
 
-            min = matrix[index];
-        }
+      min = matrix[index];
     }
+  }
 
-    printf("the minimum element in the row %d is : %d", row, min);
-    return min;
+  printf("the minimum element in the row %d is : %d", row, min);
+  return min;
+}
+
+void swapRows(int *matrix, int rows, int cols, int row1, int row2)
+{
+
+  //int *newMatrix = (int *)malloc(rows * cols * sizeof(int));
+
+  // first the new matrix to be the same as the old matrix
+  //newMatrix = matrix;
+
+  // now iterate over the new matrix and set new values
+
+  // iterate over the columns
+
+  int firstIndex, secondIndex, temporary;
+  for (int i = 0; i < cols; i++)
+  {
+
+    firstIndex = row1 * cols + i;
+    secondIndex = row2 * cols + i;
+
+    temporary = matrix[firstIndex];
+
+    // now writing to the new matrix
+
+    matrix[firstIndex] = matrix[secondIndex];
+    matrix[secondIndex] =temporary;
+  }
+
+  printMatrix(matrix,rows,cols);
+
+
 }
 
 void transposeMatrix(int *matrix, const int rows, const int cols)
@@ -81,7 +116,7 @@ void transposeMatrix(int *matrix, const int rows, const int cols)
   // malloc and free it later
 
   // malloc of size int for rows*cols - many numbers
-  int *newMatrix = (int *)malloc(sizeof(rows * cols * sizeof(int)));
+  int *newMatrix = (int *)malloc((rows * cols * sizeof(int)));
 
   // iterating over rows and columns
   for (int i = 0; i < rows; i++)
@@ -117,9 +152,11 @@ int main(void)
 
   printf("\n\n\n");
 
-   findMaxInCol(givenArray,5,3,0);
-  findMinInRow(givenArray,rowsToPrint,columnsToPrint,2);
-  //transposeMatrix(givenArray, rowsToPrint, columnsToPrint);
+  //findMaxInCol(givenArray, 5, 3, 0);
+  //findMinInRow(givenArray, rowsToPrint, columnsToPrint, 2);
+  // transposeMatrix(givenArray, rowsToPrint, columnsToPrint);
+
+  swapRows(givenArray,rowsToPrint,columnsToPrint,0,1);
 
   return 0;
 }
