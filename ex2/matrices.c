@@ -129,6 +129,20 @@ void multiplyByScalar(int *matrix, int rows, int cols, int scalar) {
     printMatrix(matrix,rows,cols);
 }
 
+void sum(int* m1, int* m2, int* res, int rows, int cols) {
+
+     res = (int*) malloc(sizeof(m1));
+
+     for (int i = 0; i < rows; i++) {
+             res[i] = m1[i] + m2[i];
+     }
+
+    printf("the resulting matrix by addinbg both matrices is :\n");
+    printMatrix(res,rows,cols);
+
+    free(res);
+}
+
 
 int main(void) {
     int givenArray[] = {2, 18, 1, 27, 16, 24, 42, 18, 9, 5, 10, 42, 8, 7, 14};
@@ -151,7 +165,13 @@ int main(void) {
     // transposeMatrix(givenArray, rowsToPrint, columnsToPrint);
 
     //swapRows(givenArray, rowsToPrint, columnsToPrint, 0, 1);
-    multiplyByScalar(givenArray,rowsToPrint,columnsToPrint,3);
+   //multiplyByScalar(givenArray,rowsToPrint,columnsToPrint,3);
+
+    int* res = (int*)calloc(15,sizeof(int));
+
+    sum(givenArray,givenArray,res,rowsToPrint,columnsToPrint);
+
+    free(res);
 
     return 0;
 }
